@@ -1,0 +1,116 @@
+/*index.css*/
+.comWidth{width:1349px }
+.top_bar{width: 1349px;height: 99px;background-color: #FFF}
+.top_bar ul li{float: left;padding-right: 130px;}
+.top_bar ul li a{line-height: 99px;display: block;font-size: 14px}
+.top_bar ul li ul{height: 150px;width: 150px;display: none}
+.top_bar ul li ul li{float:none;padding-right: 0px;}
+.top_bar ul li ul li a{font-size: 15px;line-height: 50px;text-align: center;display: block;background: #bf9f62;}
+.top_bar ul li:hover ul{display: block;}
+.top_bar ul li a:hover{color:  #85c226}
+.top_bar ul li ul li a:hover{background: #85c226}
+.banner{width: 1349px;height: 600px;overflow: hidden;}
+.imgBox{width: 4047px;height:600px;}
+.imgBox img{width: 1349px;height: 600px}
+.imgBox ul li{float: left;}
+.imgBox ul li{display: none;}
+.imgBox ul .current{display: block;}
+.imgCoin ol .current{background-color: #FFF}
+.imgCoin{position: absolute;left: 45.5%;top: 640px;}
+.imgCoin ol li{float: left;width: 10px;height: 10px;border-radius: 50%;margin-right:37px;background-color: #313131;border:3px solid #313131;}
+.item{padding-left: 85px;height: 384px;width: 1189px;overflow: hidden;}
+.item ul li{width: 345px;height: 384px;float: left;padding-right:77px;}
+.item ul li p{text-align: center;padding-top: 36px;}
+.itemCoin{width: 1349px;height:16px;margin-bottom: 10px}
+.itemCoin ol{padding-left: 602px}
+.itemCoin ol li{float: left;width: 10px;height: 10px;border-radius: 50%;margin-right:26px;background-color: #626262;border:3px solid #626262;}
+.item2{width: 909px;height: 442px;padding-left: 222px;overflow: hidden;}
+.item2 ul li{float: left;padding-right:280px;}
+.item2 ul li img{width: 100px;height: 100px;border-radius: 50%;border:6px solid #666;}
+.item2 ul li p{text-align: center;padding-top: 37px;padding-bottom: 48px;font-size: 15px}
+.item2 ul li a:hover img{border: 6px solid #85c226}
+.item2 ul li a:hover p{color:  #85c226}
+.item3{width: 1112px;height: 317px;padding-left: 117px}
+.item3 p{width:461px;height: 100%;line-height: 55px;font-size: 15px}
+.item4{width: 1148px;height: 451px;padding-left: 100px;padding-bottom:91px;}
+.item4 span{width: 614px;height: 100%;padding-right:60px;}
+.item4 ul li{line-height: 45px;font-size: 15px}
+.news{width: 473px;height: 441px;overflow: hidden;}
+.news i{float: right;padding-right: 10px}
+.footer{height: 146px;background-color: #000}
+.footer a{color: #FFF;padding:0 34px;font-size: 16px}
+.footer span{color: #FFF;padding:0 34px;}
+.footer_css{text-align: center;padding-top:53px;padding-bottom:30px }
+
+/*news.css*/
+.main2{height: 279px}
+.main2 p{text-align: center;line-height: 186px;font-size: 15px}
+.main2 ul li{float: left;padding-right: 270px;font-size: 15px;}
+.main2 ul li a{display: block;height: 30px}
+.main2 ul li a:hover{border-bottom: 3px solid #85c226;}
+.news_main{width: 1243px;height: 405px}
+.news_main ol li{line-height: 40px;font-size: 15px;width: 500px}
+.news_main ol li i{float: right;}
+.news_center div{display: none;}
+.news_center .current{display: block;}
+.Num{padding-left:400px;padding-bottom:20px;}
+.Num ul{height: 26px;}
+.Num ul li{float: left;line-height: 25px;font-size: 14px;padding-right: 25px}
+.Num ul li a{width: 38px;height: 25px;display: block;text-align: center;}
+.Num ul li a:hover{background:#85c226;border:1px solid #e9f7a7;color: #000}
+
+/*news_detial.css*/
+.news_detial_text{width: 622px}
+.news_detial img{width: 566px;height: 357px}
+.news_detial_control .news_detial{display: none;}
+.news_detial_control .current{display: block;}
+
+
+/*product.css*/
+.product_center{width: 1198px;height: 872px;padding-left: 80px}
+.product_center img{width: 347;height: 295px}
+.product_center ul li{float: left;padding-right: 73px}
+.product_center ul li p{text-align: center;padding-top:25px;padding-bottom:97px;}
+.product_list .product_center{display: none;}
+.product_list .current{display: block;}
+
+/*product_detial.css*/
+.product_detial img{width: 784px;height: 555px;}
+.product_detial_text{width: 784px;}
+.product_detial_text p{line-height: 30px}
+.product_detial_control .product_detial{display: none;}
+.product_detial_control .current{display: block;}
+
+/*contact.css*/
+.contact{padding-left: 175px;padding-top: 40px;padding-bottom: 100px;width: 998px;height: 728px}
+.contact_text ul li{line-height: 60px;padding-left: 184px}
+.contact_text ul li span{float: right;padding-right: 221px}
+.contact form{margin-top: 38px;width: 998px;height: auto;float: left;}
+.contact form .name,.phone,.code,.text{height: 50px;width: 998px;float: left;background: #d2d2d2;margin-bottom: 30px}
+.contact form label{line-height: 50px;font-size: 15px;margin-left: 10px}
+.contact form .name input,.phone input{height: 30px;margin-left: 10px;width: 900px;}
+.contact form .text{height: 250px;}
+.contact form .code label{float: left;}
+.contact form .code input{height: 44px;margin-left: 138px;background: #FFF;width: 384px;line-height: 50px;margin-top: 3px;float: left;}
+.contact form .code img{width: 153px;height: 44px;margin-top: 3px;margin-left:3px;cursor: pointer;float: left;}
+.contact form .code a{line-height: 50px;font-size: 15px;width: 265px;height: 50px;display: block;text-align: center;float: left;}
+.btn input{height: 50px;width: 998px;background: #85c226;font-size: 15px;cursor: pointer;}
+
+/*about.css*/
+.about_main{width: 1198px;height: 1193px;text-align: center;padding-left: 78px}
+.about_main .about_menu{display: none;}
+.about_main .current{display: block;}
+.about_list ul li{float: left;font-size: 15px;padding-right: 262px;height: 33px}
+.about_list ul li a{display: block;height: 30px}
+.about_list ul li a:hover{border-bottom: 3px solid #85c226;}
+.about_img img{padding-top: 61px}
+.about_text{padding-top: 60px}
+.about_text p{line-height: 30px;padding: 0px 10px;font-size: 14px}
+.about_banner{width: 1100px;height: 180px;overflow: hidden;}
+.about_show{padding-left:133px;padding-bottom:100px;}
+.about_banner ul li{float: left;width: 275px;height: 180px}
+.about_banner ul li img{width: 275px;height: 180px}
+.btn_prev{position: absolute;left: 0px;top: 42%;width: 33px;height: 44px;background: rgba(0,0,0,0.8)}
+.btn_prev img{float:left;width: 13px;height: 30px;margin-left: 8px;margin-top: 7px;}
+.btn_next{position: absolute;right: 0px;top: 42%;width: 33px;height: 44px;background: rgba(0,0,0,0.8)}
+.btn_next img{float:right;width: 13px;height: 30px;margin-right: 8px;margin-top: 7px;}
